@@ -1,0 +1,69 @@
+body{
+    background-image: url("https://images7.alphacoders.com/421/thumb-1920-421534.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.registracija-section{
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+  
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 100px auto;
+}
+
+.input-group{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.input-group i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.input-group input{
+   
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 100%;
+}
+.input-group input:focus{
+    outline: none;
+    border: none;
+}
+
+.input-group select{
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.dugme-submit{
+    display: block;
+    margin-left: auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-image: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    box-shadow: 2px 4px 0px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.dugme-submit:hover{
+    background-image: linear-gradient(to right, #00f2fe, #4facfe);
+    transform: translateY(-2px); 
+}
+
+
+
+
+
