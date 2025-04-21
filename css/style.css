@@ -10,8 +10,13 @@
  h1,h2{
     font-family: "Pacifico", cursive;
  }
- 
- 
+
+
+
+
+
+
+
  /* POCETAK CSSa za HERO */
  #hero{
 
@@ -184,7 +189,7 @@
     background-color: #aaa;
    
     margin: 50px auto;   
-    padding: 50px 300px;
+    padding: 50px 10%;
     
 }
 .preporuka{
@@ -291,6 +296,61 @@
     padding: 10px;
 }
 
+@media (max-width: 1024px) {
 
+    .ukusi-grid{
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        text-align: center;
+        align-self: center;
+    }
+    .ukus-box img{
+        width: 150px;
+        height: 150px;
+    }
+   .stiker{
+        left: 20px;
+ 
+   }
+
+}
+
+@media (max-width: 768px) {
+
+    .ukusi-grid{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+        align-self: center;
+    }
+    .ukus-box img{
+        width: 150px;
+        height: 150px;
+    }
+   
+
+    .o-nama{
+        grid-template-columns: 1fr;    
+    }
+
+    .o-nama-slika img{
+        border-radius: 0;;
+    }
+
+    .preporuke-grid{
+        grid-template-columns: 1fr;
+    }
+    .zvezdice{
+        font-size: 20px;
+    }
+    .zastomi-grid
+    {   
+        grid-template-columns: 1fr;
+    }
+    .slika{
+        display: none;;
+    }
+
+}
 
 

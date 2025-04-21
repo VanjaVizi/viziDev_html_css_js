@@ -1,0 +1,62 @@
+  /**  POCETAK CSSa za NAVBAR */
+  nav{
+    background-color: #fff0f5;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    list-style: none; 
+
+   
+}
+.linkmenija{
+    margin: 10px;
+    text-decoration: none;
+    color: #7E4F18;
+   
+}
+.logoslika{
+    height: 35px;
+}
+
+  #menu-toggle{
+    display: none;
+} 
+.hamburger{
+    display: none; 
+    color: #7E4F18;
+}
+@media (max-width: 768px) {
+
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #fff0f5;
+    }
+    #menu-toggle:checked ~ .nav-links{
+        display: flex;
+    }
+    .hamburger{
+        display: flex; 
+    }
+
+
+}
+
+
+
+
+
+
+
+
+   /**  KRAJ CSSa za NAVBAR */
