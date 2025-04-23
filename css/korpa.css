@@ -71,4 +71,19 @@ input{
     text-align: center;
 }
 
-
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+        width: 100%;
+        border: none;
+    }
+   tr
+   {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 0;
+   }
+    thead{
+        display: none;
+    }
+}

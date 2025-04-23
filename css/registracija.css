@@ -1,10 +1,25 @@
-body{
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5ffc6;
+    color: #333;
+
     background-image: url("https://images7.alphacoders.com/421/thumb-1920-421534.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
+h2 {
+    font-family: "Pacifico", cursive;
+    color: #ab87ff;
+}
+ 
 
 .registracija-section{
     background-color: rgba(255, 255, 255, 0.6);
